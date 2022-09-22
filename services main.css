@@ -1,0 +1,65 @@
+.view-button {
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.view-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+
+.learn-more {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  margin-bottom: 0px;
+  border: none;
+  transition: opacity 0.5s;
+  font-size: 15px;
+}
+
+.learn-more:hover {
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+
+.service-name {
+  font-weight: bolder;
+  font-size: large;
+  margin: 20px;
+  color: white;
+}
+
+.services {
+  margin: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 5px;
+}
+
+
+.audit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00458B;
+  border: 6px solid #36f8eb;
+  width: 100%;
+  padding: 50px;
+  padding-left: -20px;
+  padding-right: -20px;
+  height: 100%;
+
+}
