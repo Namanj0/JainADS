@@ -100,18 +100,22 @@
   <div class="container">
     <div class="left-side">
       <h2 style="margin: 0; margin-bottom:16px">Connect With Us!</h2>
+     
       <form action="https://formsubmit.co/namanj088@gmail.com" method="POST">
         <input type="hidden" name="_url" value="https://jainads.in">
-        <input type="email" name="email" placeholder="Email Address">
+        <label for="fname">Email</label>
+        <input type="email" name="email" placeholder="Email Address"
+          style="width: 100%; padding: 10px; margin: 10px 0px;" required>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
         <label for="Message">Message</label>
-        <textarea id="Message" name="Message" placeholder="Type your message here..."
-          style="min-height:150px;"></textarea>
+        <textarea id="Message" name="Message" placeholder="Type your message here..." style="min-height:150px;"
+          required></textarea>
         <button type="submit" value="Submit" class="submit">Submit</button>
       </form>
+      
     </div>
     <div class="right-side" style="padding: 20px 20px;">
       <h2>Contact!</h2>
