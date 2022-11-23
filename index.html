@@ -15,17 +15,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
-<body style="margin: 0px; padding:0px; background-color: white;box-sizing: border-box;overflow-x:hidden;width:100%;height:100%">
+<body style="margin: 0px; padding:0px; background-color: white;width: 100%;height: 100%; overflow-x: hidden;">
+
   <header class="header">
     <div>
-      <a href="index.html" class="logo">
+      <a href="" class="logo">
         <img src="https://img1.wsimg.com/isteam/ip/c9dc79e8-099a-481a-970c-9ad2c8f8bd32/JA%20Logo.jpg" width="200px"
           height="40px">
       </a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a href="#">Home</a></li>
+        <li><a href="jainads.html">Home</a></li>
         <li><a href="Aboutusads.html">About</a></li>
         <li><a href="idk.html">Gallery</a></li>
         <li><a href="Contactusads.html">Contact</a></li>
@@ -33,287 +34,335 @@
     </div>
   </header>
 
-  <div
-    style="padding: 120px;background-image: url(rainbow.png);background-repeat: no-repeat;background-size:cover;background-position: center;width: 100%;height: 100%;">
-    <h1
-      style="font-size: 3rem;color:white; text-align:center;display:flex;justify-content: center;align-items: center; margin-top: 50px;width: 100%;">
-      <p style="border: 10px solid white;padding:8px"> WELCOME TO <BR> JAINADS</p>
-    </h1>
-    <p style="text-align: center;font-size:1rem; margin-top:50px;color:white; font-weight:600;width: 100%;"> The best
-      place to
-      promote your business is with the help of our experienced staff!</p>
+  <div style="height: 520px; margin-bottom:120px; justify-content: center;" class="landingpage">
+    <div style="display:flex; flex-direction:column; justify-content: center;align-items: center;
+      width: 100%;height: 120%; position: relative;">
+      <video id="background-video" autoplay loop muted>
+        <source src="https://cdn.coverr.co/videos/coverr-times-square-billboards-8783/1080p.mp4" type="video/mp4">
+      </video>
+      <div style="margin-bottom: 20px;">
+        <h2
+          style="display: inline-block;text-align:justify;font-size:3.5rem;color:white; font-weight:600;width: 100%; position: absolute; top: 100px; left: 40px;font-family:sans-serif; text-transform:capitalize;">
+          Want to<br>
+          Promote your <br>Business?</h2>
+        <p style="position: absolute; left:40px; bottom: 100px; font-size: 120%; color: white; font-weight: 600;">You
+          have come to the right place!
+        </p>
+      </div>
+      <div>
+        <button class="btnpage"
+          style="position: absolute; bottom: 2px; left:40px;padding: 15px; background-color: rgb(65, 65, 177); color: white; font-weight: 600; font-size: 1rem; margin-bottom: 20px;">Work
+          With
+          Us</button>
+      </div>
 
+    </div>
   </div>
+  <style>
+    #background-video {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+
+
+    }
+
+    .text-justify-xs {
+      text-align: justify;
+    }
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+      .text-justify-sm {
+        text-align: justify;
+      }
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .text-justify-md {
+        text-align: justify;
+      }
+    }
+
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .text-justify-lg {
+        text-align: justify;
+      }
+    }
+  </style>
 
   <!---LITTLE BIT ABOUT US-->
-  <div style="display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center">
-    <div class="section1" style=" padding: 50px;">
-      <h1 style="margin-bottom: 15px;">WHO ARE WE</h1>
-      <p style="width: 100%;font-size: 0.9rem; text-align: center;height: 100%;">
+  <div class="divtochange" style="display: grid;text-align: left;column-gap: 20px; padding: 100px 30px 30px 30px;">
+    <div class="section1">
+      <h1 style="margin-bottom: 40px;">About us</h1>
+      <p style="width: 100%;font-size: 0.9rem; text-align: left;height: 100%;" class="textto">
         Jain Ads is one of the oldest advertising firms in Hyderabad, providing authentic and fine services in Sign
         Boards & Advertising needs for over 40 yearsJain Ads in Narayanguda, Hyderabad is known to satisfactorily
         cater to the demands of its customer base. The business came into existence in 2007 and has, since then, been
-        a known name in its field. It has earned stamps like Jd Verified, Jd Pay
-        substantiating the credentials of the business.The business strives to make for a positive experience through
-        its offerings.
+        a known name in its field. It has earned stamps like Jd Verified, Jd Pay substantiating the credentials of the
+        business.The business strives to make for a positive experience through
+        its offerings.<br>
+        <a href="Aboutusads.html" style="color: black;font-weight: 600; width: 150px; "><button class="readmore-btn"
+            style="display: flex;">Read
+            More! </button></a>
       </p>
-      <div>
-        <p style="text-decoration: underline; margin-top: 30px;"><a href="Aboutusads.html"
-            style="color: black;font-weight: 600; " class="readmore-btn">Read
-            More! </a></p>
-      </div>
+    </div>
+
+    <div class="section2">
+      <img src="Screenshot (172).png" width="100%" height="80%" class="imgforsize">
     </div>
   </div>
   <!--SERVICES-->
-  <div>
-    <div style="padding:50px;" id="services">
-      <h3 style="text-align: center; font-size: 40px; padding-bottom: 20px;">Our Services
-      </h3>
-      <div class="cards">
-        <div class="card"
-          style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-          <div>
-            <img src="https://image.shutterstock.com/image-vector/led-screen-logo-on-monitor-600w-1473759374.jpg"
-              style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
-          </div>
-          <p class="card-name">ALL TYPES OF LED BOARDS</p>
-          <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
-            dolorem, dolorum odio neque minus quia</p>
-        </div>
 
-        <div class="card"
-          style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-          <div>
-            <img src="https://cdn-icons-png.flaticon.com/128/2775/2775112.png"
-              style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
-          </div>
-          <p class="card-name">BRANDING OF SHOWROOMS</p>
-          <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
-            dolorem, dolorum odio neque minus quia</p>
+  <div id="services" style="margin-top: 30px;">
+    <h2 style="text-align: center; font-size: 50px; padding-bottom: 20px; text-decoration: underline; ">
+      Our Services
+    </h2>
+    <div class="cards">
+      <div class="card"
+        style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div>
+          <img src="https://image.shutterstock.com/image-vector/led-screen-logo-on-monitor-600w-1473759374.jpg"
+            style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
         </div>
-        <!--#3-->
-        <div class="card"
-          style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/2881/2881014.png"
-              style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
-          </div>
-          <p class="card-name">CNC & LASER</p>
-          <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
-            dolorem, dolorum odio neque minus quia</p>
-        </div>
+        <p class="card-name">ALL TYPES OF LED BOARDS</p>
+        <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
+          dolorem, dolorum odio neque minus quia</p>
+      </div>
 
-        <!--#4-->
-        <div class="card"
-          style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-          <div>
-            <img src="https://image.shutterstock.com/image-photo/letters-signage-acrylic-channel-260nw-1315199066.jpg"
-              style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
-          </div>
-          <p class="card-name">ACRYLIC LETTERS</p>
-          <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
-            dolorem, dolorum odio neque minus quia</p>
+      <div class="card"
+        style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/128/2775/2775112.png"
+            style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
         </div>
-        <!--#5-->
-        <div class="card"
-          style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-          <div>
-            <img src="https://image.shutterstock.com/image-vector/chrome-letters-260nw-355283189.jpg"
-              style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
-          </div>
-          <p class="card-name">STEEL/METAL/TIATANIUM LETTERS</p>
-          <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
-            dolorem, dolorum odio neque minus quia</p>
+        <p class="card-name">BRANDING OF SHOWROOMS</p>
+        <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
+          dolorem, dolorum odio neque minus quia</p>
+      </div>
+      <!--#3-->
+      <div class="card"
+        style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/128/2881/2881014.png"
+            style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
         </div>
-        <!--#6-->
-        <div class="card"
-          style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/202/202680.png"
-              style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
-          </div>
-          <p class="card-name">ANY TYPE OF STICKERS</p>
-          <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
-            dolorem, dolorum odio neque minus quia</p>
+        <p class="card-name">CNC & LASER</p>
+        <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
+          dolorem, dolorum odio neque minus quia</p>
+      </div>
+
+      <!--#4-->
+      <div class="card"
+        style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div>
+          <img src="https://image.shutterstock.com/image-photo/letters-signage-acrylic-channel-260nw-1315199066.jpg"
+            style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
+        </div>
+        <p class="card-name">ACRYLIC LETTERS</p>
+        <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
+          dolorem, dolorum odio neque minus quia</p>
+      </div>
+      <!--#5-->
+      <div class="card"
+        style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div>
+          <img src="https://image.shutterstock.com/image-vector/chrome-letters-260nw-355283189.jpg"
+            style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
+        </div>
+        <p class="card-name">STEEL/METAL/TIATANIUM LETTERS</p>
+        <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
+          dolorem, dolorum odio neque minus quia</p>
+      </div>
+      <!--#6-->
+      <div class="card"
+        style="height: 100%;margin-bottom: 1rem;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/128/202/202680.png"
+            style="width: 100px;border-radius:50%;border: 1px solid black; background-color: white;">
+        </div>
+        <p class="card-name">ANY TYPE OF STICKERS</p>
+        <p class="learn-more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat pariatur veniam ex
+          dolorem, dolorum odio neque minus quia</p>
+      </div>
+    </div>
+  </div>
+  <!--CUSTOMERS-->
+  <div style="padding: 100px; margin-top: 20px; background-color:rgb(235, 237, 240);;">
+    <h2 style="text-align: center;margin-bottom: 16px;">TESTIMONIALS</h2>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-592bc949-e2d8-4fa6-8628-3362e0389052"></div>
+  </div>
+
+
+
+  <!--WHY Us?-->
+  <div style="padding: 100px -50px;margin-top:20px">
+    <h2 style="text-align: center;">Why Choose Us?</h2>
+    <div class="cardss">
+      <div class="why-us" style="display: flex;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/3750/3750051.png"
+            style="border-radius: 50px; width:100px; margin-right:10px">
+        </div>
+        <div>
+          <p>Targated Advertising</p>
+          <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Sapiente necessitatibus magni commodi</p>
+        </div>
+      </div>
+      <div class="why-us" style="display: flex;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/8071/8071107.png"
+            style="border-radius: 50px; width:100px; margin-right:10px">
+        </div>
+        <div>
+          <p>Competitive Pricing</p>
+          <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Sapiente necessitatibus magni commodi</p>
+        </div>
+      </div>
+      <div class="why-us" style="display: flex;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/1704/1704018.png"
+            style="border-radius: 50px; width:100px; margin-right:10px">
+        </div>
+        <div>
+          <p>Creative Experts</p>
+          <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Sapiente necessitatibus magni commodi</p>
+        </div>
+      </div>
+      <div class="why-us" style="display: flex;">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/2343/2343257.png"
+            style="border-radius: 50px; width:100px; margin-right:10px">
+        </div>
+        <div>
+          <p>Experience & Professionalism</p>
+          <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Sapiente necessitatibus magni commodi</p>
         </div>
       </div>
     </div>
-    <!--CUSTOMERS-->
-    <div style="padding: 100px; margin-top: 20px; background-color:rgb(235, 237, 240);;">
-      <h2 style="text-align: center;margin-bottom: 16px;">TESTIMONIALS</h2>
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-592bc949-e2d8-4fa6-8628-3362e0389052"></div>
-    </div>
+  </div>
+  <style>
+    .cardss {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-gap: 1rem;
+      row-gap: 3rem;
+      width: 100%;
+      padding: 20px;
+    }
 
-
-
-    <!--WHY Us?-->
-    <div style="padding: 100px 0px;margin-top:20px">
-      <h2 style="text-align: center;">Why Choose Us?</h2>
-      <div class="cardss">
-        <div class="why-us" style="display: flex;">
-          <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/3750/3750051.png"
-              style="border-radius: 50px; width:100px; margin-right:10px">
-          </div>
-          <div>
-            <p>Targated Advertising</p>
-            <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Sapiente necessitatibus magni commodi</p>
-          </div>
-        </div>
-        <div class="why-us" style="display: flex;">
-          <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/8071/8071107.png"
-              style="border-radius: 50px; width:100px; margin-right:10px">
-          </div>
-          <div>
-            <p>Competitive Pricing</p>
-            <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Sapiente necessitatibus magni commodi</p>
-          </div>
-        </div>
-        <div class="why-us" style="display: flex;">
-          <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/1704/1704018.png"
-              style="border-radius: 50px; width:100px; margin-right:10px">
-          </div>
-          <div>
-            <p>Creative Experts</p>
-            <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Sapiente necessitatibus magni commodi</p>
-          </div>
-        </div>
-        <div class="why-us" style="display: flex;">
-          <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/2343/2343257.png"
-              style="border-radius: 50px; width:100px; margin-right:10px">
-          </div>
-          <div>
-            <p>Experience & Professionalism</p>
-            <p style="width: 100%;font-size:15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Sapiente necessitatibus magni commodi</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <style>
+    @media (min-width: 400px) {
       .cardss {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        grid-gap: 1rem;
-        row-gap: 3rem;
-        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .why-us {
         padding: 20px;
+        border: none;
+      }
+    }
+
+    /* Screen larger than 900px? 3 columns */
+    @media (min-width: 560px) {
+      .cardss {
+        grid-template-columns: repeat(2, 1fr);
+
       }
 
-      @media (min-width: 400px) {
-        .cardss {
-          grid-template-columns: repeat(1, 1fr);
-        }
 
-        .why-us {
-          padding: 20px;
-          border: none;
-        }
+      .why-us {
+        width: 100%;
+        padding: 20px 0px;
       }
-
-      /* Screen larger than 900px? 3 columns */
-      @media (min-width: 560px) {
-        .cardss {
-          grid-template-columns: repeat(2, 1fr);
-
-        }
-
-
-        .why-us {
-          width: 100%;
-          padding: 20px 0px;
-        }
-      }
-    </style>
-    <!--SPOT-->
-    <div
-      style="display: flex; justify-content:space-between;background-color: rgb(207, 209, 212);padding: 30px 0px;align-items: center;">
-      <p style="margin-left: 20px;">Better yet, see us in person!</p>
-      <button
-        style="padding: 10px;margin-right: 10px;background-color: white;font-size: 17px;font-weight: 600;">Contact</button>
-    </div>
-    <!--FOOTER-->
-    <footer>
-      <div class="content">
-        <div class="left box">
-          <div class="top">
-            <div class="topic">About us</div>
-            <p>Jain Ads is one of the oldest advertising firms in Hyderabad, providing authentic and fine services in
-              Sign Boards & Advertising needs for over 40 years</p>
-          </div>
-          <hr style="margin: 20px 0px;">
-          <div class="topic" style="margin-bottom: 0px;">Follow Us!</div>
-          <div class="media-icons">
-            <a href="https://www.facebook.com/ajayjain8060/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/jainads1/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/ajay-jain-katari-6a7991113/" target="_blank"><i
-                class="fab fa-linkedin-in"></i></a>
-          </div>
+    }
+  </style>
+  <!--SPOT-->
+  <div
+    style="display: flex; justify-content:space-between;background-color: rgb(207, 209, 212);padding: 30px 0px;align-items: center;">
+    <p style="margin-left: 20px;">Better yet, see us in person!</p>
+    <button
+      style="padding: 10px;margin-right: 10px;background-color: white;font-size: 17px;font-weight: 600;">Contact</button>
+  </div>
+  <!--FOOTER-->
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="top">
+          <div class="topic">About us</div>
+          <p>Jain Ads is one of the oldest advertising firms in Hyderabad, providing authentic and fine services in
+            Sign Boards & Advertising needs for over 40 years</p>
         </div>
-        <div class="middle box">
-          <div class="topic">Our Services</div>
-          <div><a href="index.html#services">Led Boards</a></div>
-          <div><a href="index.html#services">Branding Showrooms</a></div>
-          <div><a href="index.html#services">Acrylic Letters </a></div>
-          <div><a href="index.html#services">Steel / Metal / Titanium Letters</a></div>
-          <div><a href="index.html#services">CNC & Laser work</a></div>
-          <div><a href="index.html#services">Stickers </a></div>
-        </div>
-        <div class="right box">
-          <div class="lower" style="margin: 0px;">
-            <div class="topic">Contact us</div>
-            <div class="phone">
-              <a href="#"><i class="fas fa-phone-volume"></i>+91 9849279058</a>
-            </div>
-            <div class="email">
-              <a href="#"><i class="fas fa-envelope"></i>jainads@outlook.com</a>
-            </div>
-          </div>
-
-          <div class="down">
-            <p>Copyright © 2022 <a href="#">JainADs</a> All rights reserved</p>
-          </div>
+        <hr style="margin: 20px 0px;">
+        <div class="topic" style="margin-bottom: 0px;">Follow Us!</div>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/ajayjain8060/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jainads1/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ajay-jain-katari-6a7991113/" target="_blank"><i
+              class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
+      <div class="middle box">
+        <div class="topic">Our Services</div>
+        <div><a href="#">Led Boards</a></div>
+        <div><a href="#">Branding Showrooms</a></div>
+        <div><a href="#">Acrylic Letters </a></div>
+        <div><a href="#">Steel / Metal / Titanium Letters</a></div>
+        <div><a href="#">CNC & Laser work</a></div>
+        <div><a href="#">Stickers </a></div>
+      </div>
+      <div class="right box">
+        <div class="lower" style="margin: 0px;">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+91 9849279058</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>jainads@outlook.com</a>
+          </div>
+        </div>
 
-    </footer>
+        <div class="down">
+          <p>Copyright © 2022 <a href="#">JainADs</a> All rights reserved</p>
+        </div>
+      </div>
+    </div>
 
-    <style>
-      body {
-        margin: 0px;
-      }
+  </footer>
 
-      .container {
-        display: grid;
-        gap: 15px;
-        background: white;
-        padding: 15px;
-        grid-template-columns: 1fr 1fr 1fr;
-      }
+  <style>
+    body {
+      margin: 0px;
+    }
 
-      @media (max-width: 600px) {
-        .container img {
-          grid-template-columns: 1fr 1fr;
-        }
-      }
+    .container {
+      display: grid;
+      gap: 15px;
+      background: white;
+      padding: 15px;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    @media (max-width: 600px) {
       .container img {
-        transition: all 60ms ease-out;
-        width: 100%;
-        display: block;
-
+        grid-template-columns: 1fr 1fr;
       }
-    </style>
+    }
+
+    .container img {
+      transition: all 60ms ease-out;
+      width: 100%;
+      display: block;
+
+    }
+  </style>
   </div>
 </body>
 
