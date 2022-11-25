@@ -71,6 +71,18 @@ a {
 
 }
 
+.readmore-btn {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: large;
+  color: white;
+  background-color: rgb(65, 65, 190);
+  margin-bottom: 50px;
+  cursor: pointer;
+  width: 120px;
+
+}
+
 .header .menu-icon .navicon {
   background: #333;
   display: block;
@@ -146,4 +158,32 @@ a {
   .header .menu-icon {
     display: none;
   }
+}
+
+@media (max-width: 560px) {
+  .textto {
+    text-align: left;
+  }
+
+  .section1 p {
+    padding: 0px;
+    text-align: center;
+
+  }
+
+  .section1 h1 {
+    text-align: left;
+  }
+
+  .imgforsize {
+    height: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .divtochange {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
 }
