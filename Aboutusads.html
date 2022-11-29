@@ -9,12 +9,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="headerads.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <style>
+    body>script+div[style^="text"] {
+      display: none
+    }
 
+    html,
+    body {
+      overflow-x: hidden !important
+    }
+  </style>
   <title>
     About us</title>
 </head>
 
-<body style="margin: 0px; padding:0px; background-color: white;box-sizing: border-box;overflow-x:visible">
+<body style="margin: 0px; padding:0px; background-color: white;box-sizing: border-box;overflow-x:hidden">
 
   <header class="header">
     <div>
@@ -25,7 +34,7 @@
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li style="font-size: 22px;"><a href="index.html">Home</a></li>
+        <li style="font-size: 22px;"><a href="jainads.html">Home</a></li>
         <li style="font-size: 22px;"><a href=" #about">About</a></li>
         <li style="font-size: 22px;"><a href=" idk.html">Gallery</a></li>
         <li style="font-size: 22px;"><a href=" Contactusads.html">Contact</a></li>
@@ -43,12 +52,14 @@
 
 
 
-  <div style="padding: 50px 0px; width: auto;">
-    <h1 style="padding-bottom:30px;padding-top:24px;text-decoration:underline">OUR STORY</h1>
+  <div style="padding: 50px -20px; width: auto;">
+    <h1
+      style="padding-bottom:30px;padding-top:24px;text-decoration:underline; display: flex; align-items: center; justify-content: center;">
+      OUR
+      STORY</h1>
     <div class="story">
       <div class="story-box" style="background-color:#00cc99;">
-        <p
-          style="width: 100%;font-size: 1rem; text-align: center;height: 80%; font-family: 'Times New Roman'; background-color: #008970;padding: 15px;">
+        <p style="width: 100%;font-size: 1rem; text-align: center;height: 80%;background-color: #008970;padding: 15px;">
           Jain Ads in Narayanguda, Hyderabad is
           known to satisfactorily cater to the demands of its customer base. It has earned stamps like Jd
           Verified, Jd Pay substantiating the credentials of the business.The business strives to make for a positive
@@ -61,7 +72,7 @@
           src="https://media.istockphoto.com/id/842214470/photo/young-designers-discussing-the-color-palette.jpg?s=612x612&w=0&k=20&c=nAJgTF73SOAoiDLY-T1KOJGF8azZIX9C52X5xGy69K4=">
       </div>
       <div class="story-box" style="background-color: #009999;">
-        <p style="margin-top: 10px;background-color: #008970; padding: 15px;color:#99eedf;">Customer centricity is at
+        <p style="margin-top: 10px;background-color: #008970; padding: 15px;color:white">Customer centricity is at
           the
           core of
           Jain Ads in
@@ -105,6 +116,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
       }
 
       .story {
@@ -112,6 +124,7 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(560px, 2fr));
+
       }
 
       .custom-shape-divider-bottom-1669220570 {
@@ -281,7 +294,7 @@
     }
   </style>
 
-  <section style="position:relative; padding:2px 0px; width: auto;">
+  <section style="position:relative; padding:2px 0px; width: 100%;">
     <div
       style=" display:flex; justify-content: center; align-items: center;background-color: #11c3c3; padding: 0px 0px;">
       <h1 style=" text-align: center;margin-bottom:20px;text-decoration: underline;font-size: 35PX; padding-top: 10px;">
