@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" type="image/x-icon"
-  href="https://img1.wsimg.com/isteam/ip/c9dc79e8-099a-481a-970c-9ad2c8f8bd32/JA%20Logo.jpg">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="icon" type="image/x-icon"
+    href="https://img1.wsimg.com/isteam/ip/c9dc79e8-099a-481a-970c-9ad2c8f8bd32/JA%20Logo.jpg">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="headerads.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-  
+
   <link rel="stylesheet" href="headerads.css">
   <style>
     body>script+div[style^="text"] {
@@ -61,13 +63,16 @@
       type="image/x-icon">
   </head>
 
+  <script>
+    AOS.init({ once: true });
+  </script>
 
   <body>
     <section class="company-heading intro-type" id="parallax-one">
       <div class="container">
         <div class="bb product-title-info">
           <div class="col-md-12">
-            <h1 style="font-size: 60px; text-align: center;">About Us</h1>
+            <h1 style="font-size: 60px; text-align: center;" data-aos="fade-up">About Us</h1>
           </div>
         </div>
       </div>
@@ -91,15 +96,17 @@
 
       <main>
         <section id="who-we-are">
-          <h2>Who We Are</h2>
+          <h2 data-aos="fade-up">Who We Are</h2>
           <div class="flex-container">
             <div class="flex-item">
-              <img
+              <img data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                 alt="Who We Are">
             </div>
             <div class="flex-item">
-              <p>Jain Ads is one of the oldest advertising firms in Hyderabad, providing authentic and fine
+              <p data-aos="fade-up" style="padding-top: 20px;">Jain Ads is one of the oldest advertising firms in
+                Hyderabad, providing authentic
+                and fine
                 services in Sign Boards & Advertising needs for over 40 years. Jain Ads in Narayanguda, Hyderabad is
                 known
                 to satisfactorily cater to the demands of its customer base by providing creative and effective
@@ -110,10 +117,11 @@
           </div>
         </section>
         <section id="what-we-do">
-          <h2>What We Do</h2>
+          <h2 data-aos="fade-up">What We Do</h2>
           <div class="flex-container">
             <div class="flex-item">
-              <p>At Jainads, we believe that creativity and innovation are key to the success of our clients. We offer
+              <p data-aos="fade-up">At Jainads, we believe that creativity and innovation are key to the success of our
+                clients. We offer
                 comprehensive advertising products and services to help brands reach their full potential. Our team of
                 experienced professionals are dedicated to creating the best campaigns that are tailor-made to each
                 client.
@@ -124,7 +132,7 @@
               </p>
             </div>
             <div class="flex-item">
-              <img
+              <img data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-out"
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                 alt="What We Do">
             </div>
@@ -164,7 +172,7 @@
         text-align: center;
         margin-bottom: 20px;
         margin-top: 50px;
-        font-weight:800;
+        font-weight: 800;
       }
 
       .flex-container {
@@ -209,14 +217,15 @@
   <div class="test-col">
 
     <div>
-      <p style="font-weight: 900; font-size: 50px; margin-left: 10px; margin: 0px;padding-left: 20px;">
+      <p data-aos="fade-up"
+        style="font-weight: 900; font-size: 50px; margin-left: 10px; margin: 0px;padding-left: 20px;">
         Our values
       </p>
       <div>
         <div
           style="display: flex;justify-content:space-between; background-color:aliceblue;; color:white; padding: 0px 0px;column-gap:60px; margin-left: 0px; margin-top: 20px;"
           class="plswork">
-          <div class=" flip-card">
+          <div class=" flip-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <h2 style="font-size: 30px;">Adaptability</h2>
@@ -228,7 +237,7 @@
             </div>
           </div>
 
-          <div class="flip-card">
+          <div class="flip-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <h2 style="font-size: 30px;">Creativity</h2>
@@ -241,7 +250,7 @@
             </div>
           </div>
 
-          <div class="flip-card">
+          <div class="flip-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <h2 style="font-size: 30px;">Customer Centricity</h2>
@@ -263,19 +272,20 @@
   <div class="test-col">
 
     <div>
-      <p style="font-weight: 900; font-size: 50px; margin-left: 10px; margin: 0px;padding-left: 20px;">Our Vision
+      <p style="font-weight: 900; font-size: 50px; margin-left: 10px; margin: 0px;padding-left: 20px;"
+        data-aos="fade-up">Our Vision
       </p>
       <div>
         <div class="section3" style="padding:10px">
           <div style="display:flex;column-gap: 10px;padding: 50px 0px; " class="yoyo">
-            <div
+            <div data-aos="fade-down"
               style="display:flex;align-items:center;justify-content:center;background-image: url(mountain.png);height: 30vh;background-repeat:round;width: 100%;">
               <p style="margin:0;border:5px solid white; font-size: 2.5rem;color: white; padding: 10px; ">Our
                 Vision</p>
             </div>
             <div
               style="display: flex;align-items:center;justify-content:center; font-size: 20px; margin-top: 25px; margin-left: 10px;">
-              <p style="font-size: 17px; font-weight: 600;">Our vision at <strong
+              <p data-aos="fade-up" style="font-size: 17px; font-weight: 600;">Our vision at <strong
                   style="font-weight: 900; font-size: larger;">JainAds</strong> is to be a leader
                 in creating
                 innovative, and
@@ -297,7 +307,7 @@
 
 
   <!--SPOT-->
-  <div class="ss">
+  <div class="ss" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
     <div class="cta-section">
       <h1 style="font-weight: 600;font-family: 'Belanosima', sans-serif;
       font-family: 'Caprasimo', cursive;
@@ -305,8 +315,8 @@
       <a class=" cta-button" href="Contactusads.html" style="font-weight: 600;">Partner With Us</a>
     </div>
   </div>
-<style>
-      .ss {
+  <style>
+    .ss {
       max-width: 1000px;
       margin: 0 auto;
       padding: 20px;
@@ -338,7 +348,7 @@
     .cta-button:hover {
       background-color: #FFB74D;
     }
-</style>
+  </style>
   <!--FOOTER-->
   <footer style="color: white;
     margin: 0;
