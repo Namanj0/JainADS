@@ -3,12 +3,16 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>Contact Us</title>
   <link rel="stylesheet" href="headerads.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-   <link rel="icon" type="image/x-icon"
-  href="https://img1.wsimg.com/isteam/ip/c9dc79e8-099a-481a-970c-9ad2c8f8bd32/JA%20Logo.jpg">
-
+  <link rel="icon" type="image/x-icon"
+    href="https://img1.wsimg.com/isteam/ip/c9dc79e8-099a-481a-970c-9ad2c8f8bd32/JA%20Logo.jpg">
+  <script>
+    AOS.init();
+  </script>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -96,11 +100,13 @@
       style="font-size: 3rem;color:white; text-align:center;display:flex;justify-content: center;align-items: center;">
       <p style="border: 10px solid white;padding:20px"> CONTACT US</p>
     </h1>
-
+    <script>
+      AOS.init();
+    </script>
   </div>
   <!--contACT-->
   <div class="container">
-    <div class="left-side">
+    <div class="left-side" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <h2 style="margin: 0; margin-bottom:16px">Connect With Us!</h2>
       <form action="https://formsubmit.co/namanj088@gmail.com" method="POST">
         <input type="hidden" name="_url" value="https://jainads.in">
@@ -118,24 +124,31 @@
       </form>
     </div>
     <div class="right-side" style="padding: 20px 20px;">
-      <h2>Contact!</h2>
-      <div class="phone" style="margin-bottom: 15px;font-size:1rem;;">
-        <a style="color: black;text-decoration: none;"><i class="fas fa-phone-volume"></i>: +91 9849279058</a>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <h2>Contact!</h2>
+        <div class="phone" style="margin-bottom: 15px;font-size:1rem;;">
+          <a style="color: black;text-decoration: none;"><i class="fas fa-phone-volume"></i>: +91 9849279058</a>
+        </div>
+        <div class="email" style="margin-bottom: 15px;font-size:1rem">
+          <a style="color: black; text-decoration:none;"><i class="fas fa-envelope"></i>: jainads@outlook.com</a>
+        </div>
       </div>
-      <div class="email" style="margin-bottom: 15px;font-size:1rem">
-        <a style="color: black; text-decoration:none;"><i class="fas fa-envelope"></i>: jainads@outlook.com</a>
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <h2> Vist Us!</h2>
+        <p>
+        <address style="text-align: left;">3-5-762/3, Vittalwadi Rd, Vittalwadi, <br>Narayanguda,<br> Hyderabad,
+          Telangana
+          500029</address>
+        </p>
       </div>
-      <h2> Vist Us!</h2>
-      <p>
-      <address style="text-align: left;">3-5-762/3, Vittalwadi Rd, Vittalwadi, <br>Narayanguda,<br> Hyderabad, Telangana
-        500029</address>
-      </p>
-      <button class="submit"><a
-          href="https://www.google.com/maps/dir//google+maps+jain+ads+link/@17.39625,78.4162781,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcb99c6455864c9:0x2957d921129faaf9!2m2!1d78.4863196!2d17.3960984"
-          style="text-decoration: none;color:white">Google Maps</a></button>
-      <h2 style="margin-top: 12px;">Hours</h2>
-      <p>Mon-Fri: 10:30am - 7:30pm</p>
-      <p>Sat-Sun: Closed</p>
+      <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <button class="submit"><a
+            href="https://www.google.com/maps/dir//google+maps+jain+ads+link/@17.39625,78.4162781,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcb99c6455864c9:0x2957d921129faaf9!2m2!1d78.4863196!2d17.3960984"
+            style="text-decoration: none;color:white">Google Maps</a></button>
+        <h2 style="margin-top: 12px;">Hours</h2>
+        <p>Mon-Fri: 10:30am - 7:30pm</p>
+        <p>Sat-Sun: Closed</p>
+      </div>
     </div>
   </div>
 
